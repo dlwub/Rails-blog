@@ -13,4 +13,14 @@ RSpec.describe User, type: :model do
   it 'subject.name should return Tom' do
     expect(subject.name).to eq 'Tom'
   end
+
+  it 'postscounter should be integer' do
+    subject.postscounter = 'a'
+    expect(subject).to_not be_valid
+  end
+
+  it 'postscounter should be integer greater than or equal to 0' do
+    subject.postscounter = -1
+    expect(subject).to_not be_valid
+  end
 end
