@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Rails Blog App</b></h3>
 </div>
 
 # 📗 Table of Contents
