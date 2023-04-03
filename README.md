@@ -81,17 +81,16 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
-Example commands:
- cd blog-app
-  git clone git@github.com:dlwub/blog-app.git
+  git clone git@github.com:dlwub/Rails-blog.git 
+Change your directory to the folder containing the cloned project:
+  cd Rails-blog
 
 ### Install
 
 Install this project with:
 
 Example commands:
-cd blog-app
+cd Rails-blog
   gem install
 
 
