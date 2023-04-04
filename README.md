@@ -81,17 +81,16 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
-Example commands:
- cd blog-app
-  git clone git@github.com:dlwub/blog-app.git
+  git clone git@github.com:dlwub/Rails-blog.git 
+Change your directory to the folder containing the cloned project:
+  cd Rails-blog
 
 ### Install
 
 Install this project with:
 
 Example commands:
-cd blog-app
+cd Rails-blog
   gem install
 
 
@@ -162,7 +161,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](./Licence.txt) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
