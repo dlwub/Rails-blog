@@ -59,8 +59,6 @@ gem 'bootsnap', require: false
 
 gem 'letter_opener'
 
-gem 'factory_bot_rails'
-
 gem 'font-awesome-rails'
 
 # Use Sass to process CSS
