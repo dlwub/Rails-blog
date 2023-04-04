@@ -59,8 +59,6 @@ gem 'bootsnap', require: false
 
 gem 'letter_opener'
 
-gem 'factory_bot_rails'
-
 gem 'font-awesome-rails'
 
 # Use Sass to process CSS
@@ -70,6 +68,7 @@ gem 'font-awesome-rails'
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  gem 'factory_bot_rails'
   gem 'pry'
   gem 'rails-controller-testing'
   gem 'rspec-rails'
