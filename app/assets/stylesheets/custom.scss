@@ -2,29 +2,27 @@
 @import 'rails_bootstrap_forms';
 
 .user-data {
-	display: flex;
-	margin-bottom: 10px;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .name-posts {
-	display: flex;
-	height: 100px;
+  display: flex;
+  height: 100px;
 }
 
 .user-photo {
-	height: 100px;
+  height: 100px;
 }
 
 .name {
-	margin: 20px;	
+  margin: 20px;
 }
 
-.comments-likes{
-	margin-left: 200px;
+.comments-likes {
+  margin-left: 200px;
 }
 
 .number-of-posts {
-	top: 50px;
+  top: 50px;
 }
-
-
