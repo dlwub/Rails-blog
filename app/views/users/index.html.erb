@@ -1,1 +1,7 @@
-<h1>List of users</h1>
+<div class="container">
+    <ul> 
+        <% @users.each do |user|%>    
+            <%= render "shared/user_data", user: user %>
+        <% end %>
+    </ul>
+</div>

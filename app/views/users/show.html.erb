@@ -1,1 +1,17 @@
-<h1>A user</h1>
+<div class="container">  
+  <%= render "shared/user_data", user: @user %>
+  <div class="user-bio">
+    <p>Bio</p>
+    <p><%= @user.bio %></p>
+  </div>
+  <ul>
+    <% @user.recent_posts.each do |post| %>
+      <div class="post">
+        <%= render "shared/post", post: post %>         
+      </div>
+    <% end %>
+  </ul>
+  <%= button_tag link_to "See all posts", user_posts_path(@user) %>   
+</div>
+
+
