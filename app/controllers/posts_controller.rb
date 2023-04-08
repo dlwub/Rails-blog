@@ -10,13 +10,13 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post = Post.new    
+    @post = Post.new
   end
 
   def create
     @post = Post.new(post_params)
     @post.author = current_user
-    
+
     if @post.save
       redirect_to user_post_path(current_user.id, @comment.post_id)
     else

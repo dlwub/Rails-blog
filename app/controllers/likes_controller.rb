@@ -2,6 +2,7 @@ class LikesController < ApplicationController
   def new
     @like = Like.new
   end
+
   def create
     author = params[:user_id]
     post = params[:post_id]
