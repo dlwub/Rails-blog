@@ -1,4 +1,7 @@
 class LikesController < ApplicationController
+  def new
+    @like = Like.new
+  end
   def create
     author = params[:user_id]
     post = params[:post_id]
@@ -6,7 +9,7 @@ class LikesController < ApplicationController
 
     if like.save
       flash[:success] = 'Like saved'
-      redirect_to user_post_path(author, post)
+      redirect_to user_post_likes_path(author, post)
     else
       flash.now[:error] = 'Error. Liking post failed!'
     end
